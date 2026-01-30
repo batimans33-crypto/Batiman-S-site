@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Batiman'S | Rénovation à Langon (33210)</title>
+  <meta name="description" content="Batiman'S : rénovation, salle de bain complète, plomberie, carrelage, peinture, revêtement de sol à Langon (33210). Devis gratuit." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <strong>Batiman'S</strong>
+      <span>Rénovation • Dépannage • Finitions</span>
+    </a>
+    <nav class="navlinks">
+      <a href="#services">Services</a>
+      <a href="#zone">Zone</a>
+      <a href="#devis">Devis</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero card">
+    <div class="badge">📍 Langon (33210) • Sud Gironde</div>
+    <h1>Travaux de rénovation et dépannage<br/>à Langon et alentours</h1>
+    <p>
+      Salle de bain complète, plomberie, carrelage, peinture et revêtements de sol.
+      Un travail soigné, des finitions propres, un devis clair.
+    </p>
+    <div class="cta">
+      <a class="btn" href="#devis">Demander un devis</a>
+      <a class="btn secondary" href="#services">Voir les services</a>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Services</h2>
+    <div class="grid3">
+      <div class="service card">
+        <h3>Salle de bain complète</h3>
+        <p>Dépose, plomberie, étanchéité, carrelage/faïence, pose équipements.</p>
+      </div>
+      <div class="service card">
+        <h3>Plomberie / dépannage</h3>
+        <p>Réparation, remplacement, raccordements, recherche de fuite.</p>
+      </div>
+      <div class="service card">
+        <h3>Carrelage</h3>
+        <p>Pose au sol et mural, grands formats, joints propres.</p>
+      </div>
+      <div class="service card">
+        <h3>Peinture</h3>
+        <p>Préparation supports, enduits, peinture murs et plafonds.</p>
+      </div>
+      <div class="service card">
+        <h3>Revêtement de sol</h3>
+        <p>PVC, stratifié, ragréage, plinthes et finitions.</p>
+      </div>
+      <div class="service card">
+        <h3>Rénovation logement</h3>
+        <p>Remise à neuf, entretien de l’habitat, améliorations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="zone" class="section">
+    <div class="card">
+      <h2>Zone d’intervention</h2>
+      <p>Langon (33210) et communes autour (Sud Gironde). Indique ta ville dans la demande de devis.</p>
+    </div>
+  </section>
+
+  <section id="devis" class="section">
+    <div class="card">
+      <h2>Demande de devis</h2>
+      <p>Remplis le formulaire : ton email s’ouvrira avec un message pré-rempli.</p>
+
+      <form id="form-devis" class="form">
+        <input name="nom" placeholder="Votre nom" required />
+        <input name="tel" placeholder="Téléphone" required />
+        <input name="email" type="email" placeholder="Email" required />
+        <select name="prestation" required>
+          <option value="">Prestation</option>
+          <option>Salle de bain complète</option>
+          <option>Plomberie / dépannage</option>
+          <option>Carrelage</option>
+          <option>Peinture</option>
+          <option>Revêtement de sol</option>
+          <option>Rénovation logement</option>
+        </select>
+        <input name="ville" placeholder="Ville / secteur" required />
+        <textarea name="message" placeholder="Décris ton besoin (surface, état, délai souhaité, photos si possible)"></textarea>
+        <button class="btn" type="submit">Envoyer</button>
+        <p class="small">Le bouton ouvre ton application mail avec le message préparé.</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="card">
+      <h2>Contact</h2>
+      <p>
+        Téléphone : <a href="tel:+33XXXXXXXXX">+33 XX XX XX XX XX</a><br/>
+        Email : <a href="mailto:contact@batimans.fr">contact@batimans.fr</a>
+      </p>
+      <p class="small">Tu peux remplacer le numéro et l’email plus tard.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">© <span id="y"></span> Batiman'S • Langon</div>
+</footer>
+
+<script src="assets/app.js"></script>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
