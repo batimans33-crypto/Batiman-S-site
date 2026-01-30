@@ -4,7 +4,7 @@ function sendDevis(e){
 
   const nom = f.nom.value.trim();
   const tel = f.tel.value.trim();
-  const email = f.email.value.trim();
+  const email = f.batimans33@gmail.com.value.trim();
   const prestation = f.prestation.value;
   const ville = f.ville.value.trim();
   const msg = f.message.value.trim();
