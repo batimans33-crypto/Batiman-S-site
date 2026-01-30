@@ -28,7 +28,7 @@ Merci,
 ${nom}`
   );
 
-  const to = "contact@batimans.fr";
+  const to = "batimans33@gmail.com";
   window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
 }
 
